@@ -7,5 +7,18 @@
 
 import Foundation
 
-print("Hello, World!")
+// MARK: Task 1
+
+func checkEven(number: Int){
+    if number > 0 {
+        print(true)
+    }else{
+        print(false)
+    }
+}
+
+let exsampleCheckEven = checkEven(number: -1)
+print(exsampleCheckEven)
+
+
 
