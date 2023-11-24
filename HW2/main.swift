@@ -20,5 +20,12 @@ func checkEven(number: Int){
 let exsampleCheckEven = checkEven(number: -1)
 print(exsampleCheckEven)
 
+// MARK: Task 2
 
+func dividByThree(number: Int){
+    var result = number % 3 == 0 ? "true" : "false"
+    print(result)
+}
 
+let exsampleDividbyThree = dividByThree(number: 9)
+print(exsampleDividbyThree)
