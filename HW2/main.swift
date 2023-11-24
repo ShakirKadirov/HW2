@@ -53,3 +53,18 @@ func generateFebonacciNumbers() -> [Int]{
 var febonacciArray = generateFebonacciNumbers()
 print("equal to:  \(febonacciArray)")
 
+// MARK: task 5
+
+func generateFuctarial (_ N:Int) -> Int{
+    if N == 0 || N == 1 {
+        return 1
+    } else {
+        return N * generateFuctarial(N - 1)
+    }
+}
+
+let exsampleToFuctarial = 5
+let result = generateFuctarial(exsampleToFuctarial)
+print(result)
+
+
