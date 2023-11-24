@@ -31,10 +31,25 @@ let exsampleDividbyThree: () = dividByThree(number: 9)
 print(exsampleDividbyThree)
 
 
-// MARK: 3
+// MARK: Task 3
 var arrayNumbers = Array(1...100)
 arrayNumbers = arrayNumbers.filter{$0 % 2 != 0}
 arrayNumbers = arrayNumbers.filter{$0 % 3 == 0}
 print(arrayNumbers)
 
+
+// MARK: Task 4
+
+func generateFebonacciNumbers() -> [Int]{
+    var febonacciNumbers = [0,1]
+    
+    for _ in 2..<50{
+        let nextFebonacciNumber = febonacciNumbers[febonacciNumbers.count - 1] + febonacciNumbers[febonacciNumbers.count - 2]
+        febonacciNumbers.append(nextFebonacciNumber)
+    }
+    return febonacciNumbers
+}
+
+var febonacciArray = generateFebonacciNumbers()
+print("equal to:  \(febonacciArray)")
 
