@@ -17,7 +17,7 @@ func checkEven(number: Int){
     }
 }
 
-let exsampleCheckEven = checkEven(number: -1)
+let exsampleCheckEven: () = checkEven(number: -1)
 print(exsampleCheckEven)
 
 // MARK: Task 2
@@ -27,5 +27,14 @@ func dividByThree(number: Int){
     print(result)
 }
 
-let exsampleDividbyThree = dividByThree(number: 9)
+let exsampleDividbyThree: () = dividByThree(number: 9)
 print(exsampleDividbyThree)
+
+
+// MARK: 3
+var arrayNumbers = Array(1...100)
+arrayNumbers = arrayNumbers.filter{$0 % 2 != 0}
+arrayNumbers = arrayNumbers.filter{$0 % 3 == 0}
+print(arrayNumbers)
+
+
