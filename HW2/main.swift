@@ -67,4 +67,30 @@ let exsampleToFuctarial = 5
 let result = generateFuctarial(exsampleToFuctarial)
 print(result)
 
+// MARK: Task 6
 
+func calculte(a: Int, b: Int){
+    let addition = a + b
+    let subtraction = a - b
+    let multiplication = a * b
+    let division = a / b
+    
+    print("addition \(addition)")
+    print("subtraction \(subtraction)")
+    print("multiplication \(multiplication)")
+    print("division \(division)")
+
+}
+
+let exsampleCalculte: () = calculte(a: 10, b: 2)
+print(exsampleCalculte)
+
+
+// MARK: Task 7
+
+func countString(str: String){
+    print("equal to: \(str.count)")
+}
+
+let exsString = countString(str: "Shakir")
+print(exsString)
