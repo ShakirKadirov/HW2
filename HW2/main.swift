@@ -94,3 +94,15 @@ func countString(str: String){
 
 let exsString = countString(str: "Shakir")
 print(exsString)
+
+
+// MARK: Task 8
+
+func maxArray(a: Int, b: Int, c: Int) -> [Int]{
+    let numbers = [a,b,c]
+    
+    return numbers.sorted()
+}
+
+let exsArray = maxArray(a: 122, b: 23, c: 11)
+print(exsArray)
