@@ -67,25 +67,6 @@ let exsampleToFuctarial = 5
 let result = generateFuctarial(exsampleToFuctarial)
 print(result)
 
-// MARK: Task 6
-
-func calculte(a: Int, b: Int){
-    let addition = a + b
-    let subtraction = a - b
-    let multiplication = a * b
-    let division = a / b
-    
-    print("addition \(addition)")
-    print("subtraction \(subtraction)")
-    print("multiplication \(multiplication)")
-    print("division \(division)")
-
-}
-
-let exsampleCalculte: () = calculte(a: 10, b: 2)
-print(exsampleCalculte)
-
-
 // MARK: Task 7
 
 func countString(str: String){
@@ -131,3 +112,46 @@ func reverseString2(str: String) -> String{
 
 
 print(reverseString2(str: "Kadirov"))
+
+
+
+// MARK: Task 6
+
+func calculte(a: Int, b: Int){
+    let addition = a + b
+    let subtraction = a - b
+    let multiplication = a * b
+    let division = a / b
+    
+    print("addition \(addition)")
+    print("subtraction \(subtraction)")
+    print("multiplication \(multiplication)")
+    print("division \(division)")
+
+}
+
+let exsampleCalculte: () = calculte(a: 10, b: 2)
+print(exsampleCalculte)
+
+
+
+//func addition (a: Int, b: Int)-> Int{
+//    return a + b
+//}
+//
+//func subtraction (a: Int, b: Int)-> Int{
+//    return a - b
+//}
+//
+//func multiplication (a: Int, b: Int)-> Int{
+//    return a * b
+//}
+//
+//func division (a: Int, b: Int)-> Int{
+//    let checkNumberB = a / b ? ""
+//    return a \ b
+//}
+//
+//func calculateAll(){
+//    
+//}
