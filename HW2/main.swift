@@ -106,3 +106,28 @@ func maxArray(a: Int, b: Int, c: Int) -> [Int]{
 
 let exsArray = maxArray(a: 122, b: 23, c: 11)
 print(exsArray)
+
+
+// MARK: Task 9
+
+//func reverseString(str: String) -> String{
+//    let strReverse = str.reversed()
+//    return strReverse
+//}
+
+func reverseString(str: String) -> String{
+    let strReverse = str.reversed()
+    return String(strReverse)
+}
+let exsStrRev = reverseString(str: "Shakir")
+print(exsStrRev)
+
+ 
+// or short vesion
+
+func reverseString2(str: String) -> String{
+    return String(str.reversed())
+}
+
+
+print(reverseString2(str: "Kadirov"))
